@@ -26,10 +26,7 @@ export const getCartThunk = () => dispatch => {
         .then(res => dispatch(setCart(res.data)))
         .catch(err => {
             console.log(err);
-            /* Manejo de errores: en caso de fallo en la petición, se podría
-             * despachar una acción de Redux que actualice el estado global
-             * con un valor de error, o mostrar un mensaje de error al usuario,
-             * o redirigir al usuario a una página de error, etc. */
+            
         });
 };
 
