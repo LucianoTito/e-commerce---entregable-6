@@ -1,0 +1,22 @@
+.similar-products__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+.similar-products__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .similar-products__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        
+    }
+
+}
