@@ -112,13 +112,15 @@
   
   @media only screen and (max-width: 768px) {
     .login__form {
-      max-width: 90%;
+      max-width: 100%;
     }
 
     .login__container {
         margin-bottom: 10px;
-        width: 220px;
+        width: 240px;
       }
+
+   
 
  
   }
